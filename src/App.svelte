@@ -29,7 +29,8 @@
 		address &&
 		countryCode.match(/^[\+\d]+$/) &&
 		phoneNumber.match(/^[\d]+$/) &&
-		phoneNumber.length >= 10
+		phoneNumber.length >= 10 &&
+		countryCode.length <= 4
 	  );
 	}
   </script>
